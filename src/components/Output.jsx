@@ -2,13 +2,14 @@ import React, { Component } from 'react'
 
  class Output extends Component {
     render() {
-        let {result} = this.props;
+      
         return (
-            <div className="result">
-                <p id="display">{result}</p>
-            </div>
-    )
-        ;
-    }
-}
+            
+                <div className="outputScreen" id="display">
+                  {this.props.currentValue}
+                </div>
+              );
+            }
+    
+        }
 export default Output ;
