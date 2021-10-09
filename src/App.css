@@ -2,37 +2,126 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height:fit-content;
+    background-color: rgb(46, 45, 85);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.calculator h1{
+    color: rgb(255, 255, 255);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.formulaScreen {
+    min-height: 20px;
+    width: 320px;
+    font-family: digital;
+    font-size: 20px;
+    background-color: aliceblue;
+    color: orange;
+    text-align: right;
+    vertical-align: text-top;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
-  to {
-    transform: rotate(360deg);
+  .outputScreen {
+    font-size: 29px;
+    font-family: digital;
+    color: rgb(148, 35, 35);
+    background-color: aliceblue;
+    text-align: right;
+    line-height: 35px;
+    width: 320px;
+
   }
+  button {
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: 1px solid black;
+    border: none;
+    background: rgb(61, 56, 56);
+    font-family: Share Tech Mono, monospace;
+    font-size: 20px;
+    cursor: default;
+   
+  } button:hover {
+      color: rgb(222, 225, 245);
+      outline: 0.05em solid grey;
+      z-index: 3;
+    }
+button .element #clear{
+    width:50% ;
+    flex-grow: 1;
 }
+button .element #divide{
+    height:100% ;
+    flex-grow: 1;
+
+}
+button .element #multiply{
+    width:25% ;
+    flex-grow: 1;
+
+}
+#first-row  {
+display: flex;
+flex-grow: 1;
+height: 25%;
+}
+ #clear{
+    width: 50%;
+    flex-grow: 1;
+
+}
+ #divide{
+    width: 25%;
+
+}
+ #multiply{
+    width: 25%;
+}
+#second-row {
+    flex-grow: 1;
+    height: 25%;
+}
+#third-row {
+    flex-grow: 1;
+    height: 25%;
+}
+
+#fourth-row{
+    flex-grow: 1;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+#fourth-row-subdiv{
+    display: flex;
+    flex-direction: column;
+}
+#subdiv2{
+    display: flex;
+}
+#subdiv2 #decimal{
+    width: 25%;
+}
+#subdiv2 #zero{
+    flex-grow: 1;
+    width: 80%;
+}
+#fourth-row-equal{
+    display: flex;
+    flex-grow: 1;
+}
+#fourth-row-equal #equals{
+    flex-grow: 1;
+    height: 100%;
+
+}
+
