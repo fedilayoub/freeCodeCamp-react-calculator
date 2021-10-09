@@ -4,12 +4,12 @@ const Keypad = ({decimal,evaluate,reset,numbers, operators}) => {
   
 
     return (
-        <div>
+        <div className="container">
+          <div id="first-row">
         <button
           className="element"
           id="clear"
-      onClick={reset}
-          
+          onClick={reset}
           value="AC"
         >
           AC
@@ -25,11 +25,12 @@ const Keypad = ({decimal,evaluate,reset,numbers, operators}) => {
         <button
           id="multiply"
           onClick={operators}
-          
           value="x"
         >
           x
         </button>
+        </div>
+        <div id="second-row">
         <button id="seven" onClick={numbers} value="7">
           7
         </button>
@@ -42,11 +43,13 @@ const Keypad = ({decimal,evaluate,reset,numbers, operators}) => {
         <button
           id="subtract"
           onClick={operators}
-          
           value="‑"
         >
           ‑
         </button>
+        </div>
+
+        <div id="third-row">
         <button id="four" onClick={numbers} value="4">
           4
         </button>
@@ -59,11 +62,15 @@ const Keypad = ({decimal,evaluate,reset,numbers, operators}) => {
         <button
           id="add"
           onClick={operators}
-          
           value="+"
         >
           +
         </button>
+        </div>
+
+        <div id="fourth-row">
+          <div id="fourth-row-subdiv">
+          <div id="suvdiv1">
         <button id="one" onClick={numbers} value="1">
           1
         </button>
@@ -73,6 +80,8 @@ const Keypad = ({decimal,evaluate,reset,numbers, operators}) => {
         <button id="three" onClick={numbers} value="3">
           3
         </button>
+        </div>
+        <div id="subdiv2">
         <button
           className="element"
           id="zero"
@@ -84,14 +93,18 @@ const Keypad = ({decimal,evaluate,reset,numbers, operators}) => {
         <button id="decimal" onClick={decimal} value=".">
           .
         </button>
+        </div>
+        </div>
+        <div id="fourth-row-equal">
         <button
           id="equals"
           onClick={evaluate}
-          
           value="="
         >
           =
         </button>
+        </div>
+        </div>
       </div>
     )
 }

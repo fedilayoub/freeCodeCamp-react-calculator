@@ -164,8 +164,10 @@ class App extends React.Component {
       }
 render(){ 
    return (
-    <div>
+    
         <div className="calculator">
+          <h1>freeCodeCamp calculator</h1>
+          
           <Syntax expression={this.state.expression.replace(/x/g, '⋅')} />
           <Output currentValue={this.state.initialValue} />
           <Keypad
@@ -175,9 +177,10 @@ render(){
             numbers={this.handleNumbers}
             operators={this.handleOperators}
           />
-        </div>
+          </div>
+        
        
-      </div>
+     
   );
 }
 }
