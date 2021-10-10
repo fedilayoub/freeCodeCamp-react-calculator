@@ -1,6 +1,6 @@
 # freeCodeCamp Javascript Calculator
 ## The goal of the challenge  
-This project is a part of (freeCodeCamp front end libraries web challenge)[https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator],it's about building a JS calculator using react js.  
+This project is a part of [freeCodeCamp front end libraries web challenge](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-javascript-calculator),it's about building a JS calculator using react js.  
 
 To acheive the goal you need to fulfill the user stories bellow :  
 **User Story #1**: My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".
@@ -33,6 +33,6 @@ To acheive the goal you need to fulfill the user stories bellow :
 
 **User Story #15**: My calculator should have several decimal places of precision when it comes to rounding (note that there is no exact standard, but you should be able to handle calculations like 2 / 7 with reasonable precision to at least 4 decimal places).  
 ## Preview  
-![image preview]()  
+![image preview](https://github.com/fedilayoub/freeCodeCamp-react-calculator/blob/master/src/assets/preview.jpg)  
 ## Live Demo  
-Visit (Jabascript calculator)[https://fedilayoub.github.io/freeCodeCamp-react-calculator]
+Visit [Jabascript calculator](https://fedilayoub.github.io/freeCodeCamp-react-calculator)
