@@ -35,4 +35,4 @@ To acheive the goal you need to fulfill the user stories bellow :
 ## Preview  
 ![image preview](https://github.com/fedilayoub/freeCodeCamp-react-calculator/blob/master/src/assets/preview.jpg)  
 ## Live Demo  
-Visit [Jabascript calculator](https://fedilayoub.github.io/freeCodeCamp-react-calculator)
+Visit [Javascript calculator](https://fedilayoub.github.io/freeCodeCamp-react-calculator)
